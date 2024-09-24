@@ -26,6 +26,7 @@ export default tseslint.config(
             "indent": ["error", 4],
             "semi": ["error", "always"],
             "quotes": ["error", "double"],
+            "comma-dangle": ["error", "always-multiline"],
         },
     },
 );
